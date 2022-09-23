@@ -1,5 +1,5 @@
-# declutterOnlineJudge
-Declutters OnlineJudge for Better Readability of Questions.
+# declutterUSACO Problem Page
+Declutters USACO for Better Readability of Questions.
 
 
 
