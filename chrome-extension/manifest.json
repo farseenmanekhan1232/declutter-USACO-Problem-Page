@@ -1,0 +1,11 @@
+{
+  "name": "Declutter USACO",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Clutter Free USACO",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
