@@ -2,9 +2,11 @@ function reddenPage() {
   if (window.sessionStorage.getItem("declutterUSACO") == "yes") {
     window.sessionStorage.setItem("declutterUSACO", "no");
     document.querySelectorAll("div")[0].style["width"] = "6.25in";
+    document.querySelectorAll("div")[0].style["margin"] = "0 ";
   } else {
     window.sessionStorage.setItem("declutterUSACO", "yes");
     document.querySelectorAll("div")[0].style["width"] = "80%";
+    document.querySelectorAll("div")[0].style["margin"] = "0 10% 0 10%";
   }
 }
 
