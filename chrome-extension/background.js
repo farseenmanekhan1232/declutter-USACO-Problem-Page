@@ -3,10 +3,12 @@ function reddenPage() {
     window.sessionStorage.setItem("declutterUSACO", "no");
     document.querySelectorAll("div")[0].style["width"] = "6.25in";
     document.querySelectorAll("div")[0].style["margin"] = "0 ";
+    document.querySelectorAll("div")[0].style["font-size"] = "16px";
   } else {
     window.sessionStorage.setItem("declutterUSACO", "yes");
     document.querySelectorAll("div")[0].style["width"] = "80%";
     document.querySelectorAll("div")[0].style["margin"] = "0 10% 0 10%";
+    document.querySelectorAll("div")[0].style["font-size"] = "20px";
   }
 }
 
